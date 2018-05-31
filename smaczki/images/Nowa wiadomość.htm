@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl"><head>
+    <title>Nowa wiadomość</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Pragma" content="no-store">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-control" content="no-cache, must-revalidate">
+        <link type="text/css" href="Nowa%20wiadomo%C5%9B%C4%87_pliki/fileuploader.css" rel="stylesheet">
+        <link type="text/css" href="Nowa%20wiadomo%C5%9B%C4%87_pliki/interface.css" rel="stylesheet">
+        <link type="text/css" href="Nowa%20wiadomo%C5%9B%C4%87_pliki/form.css" rel="stylesheet">
+        <link type="text/css" href="Nowa%20wiadomo%C5%9B%C4%87_pliki/main.css" rel="stylesheet">
+    <!--[if IE 7]>
+        <link type="text/css" href="/static/css/webmail/ie7.css?1370233538" rel="stylesheet" />
+    <![endif]-->
+    <!--[if IE 8]>
+        <link type="text/css" href="/static/css/webmail/ie8.css?1376341025" rel="stylesheet" />
+    <![endif]-->
+    <!--[if IE 9]>
+        <link type="text/css" href="/static/css/webmail/ie9.css?1370233538" rel="stylesheet" />
+    <![endif]-->
+    <script type="text/javascript">
+    var trustedDomains = {"poczta.home.pl":1,"sklep-pomoc.home.pl":1,"panel.home.pl":1,"pomoc.home.pl":1,"blog.home.pl":1,"akcje.home.pl":1,"m.poczta.home.pl":1,"rejestruj.home.pl":1,"login.webmail.home.pl":1,"home.pl":1};
+</script>
+
+    <script type="text/javascript">
+var denyUrl = "http://home.pl/deny";
+// Copyright (r) 2014 home.pl
+// Compiled: 2014-05-26 14:23:59
+// fePfMmFhGcc9P3UTbqHB432lL2Y30jqvn-a8U937eVr0bm0-gKOz7xIZng
+(function(){"use strict";var iframeAskSig,iframeSig,isInFrame,isOkMessage,timeout;timeout=500;iframeSig="89e7e3451267e6c2b42f64d3ec45f1db";iframeAskSig="dee9eae0b6c5fbb75435e16238307e35";function reloadPage(){if(isOkMessage){return;}
+window.location.href=denyUrl;}
+function receiveMessage(e){if(e.data===iframeSig){isOkMessage=true;}
+else if(e.data===iframeAskSig){var frames,i;frames=document.getElementsByTagName("iframe");for(i=0;i<frames.length;++i){if(frames[i].contentWindow.postMessage){frames[i].contentWindow.postMessage(iframeSig,"*");}}}
+else if(isInFrame){reloadPage();}}
+function sendMessage(){if(window.location===window.parent.location){return;}
+isInFrame=true;if(window.parent.postMessage){window.parent.postMessage(iframeAskSig,"*");setTimeout(reloadPage,timeout);return;}
+try{if(!trustedDomains[window.parent.location.host]){reloadPage();}}
+catch(e){if(window.location.search&&window.location.search.substr(1)==="mode=lite"){isOkMessage=true;return;}
+reloadPage();}}
+function frameProtectionInit(){if(window.addEventListener){window.addEventListener("message",receiveMessage,false);}
+else if(window.attachEvent){window.attachEvent("onmessage",receiveMessage);}
+sendMessage();}
+frameProtectionInit();}());
+</script>
+
+        <script type="text/javascript" src="Nowa%20wiadomo%C5%9B%C4%87_pliki/cpl_jquery.js"></script>
+        <script type="text/javascript" src="Nowa%20wiadomo%C5%9B%C4%87_pliki/cpl_webmail.js"></script>
+        <script type="text/javascript" src="Nowa%20wiadomo%C5%9B%C4%87_pliki/cpl_webmail_res-pl.js"></script>
+        <script type="text/javascript" src="Nowa%20wiadomo%C5%9B%C4%87_pliki/cpl_fileuploader.js"></script>
+        <script type="text/javascript">
+        Object.extend (jsVars, {"isForward":null,"folderId":"3338257","noQuote":0,"ckeditorCompileDate":1347951729,"folder":"INBOX","sid_key":"SID2","id":null,"token":"28e50cbbcc447e374a906044202a6da4","module":"webmail","systemHost":"home.pl","userAgentCheck":1,"viewMode":"blank","lang":"pl","userId":"8851954","logs_enabled":"1","profileDefault":"937778","profileSig":{"922420":"--\r\npozdrawiam,\r\nKrzysztof Zieliński\r\n\r\n--\r\nRosicki Purski Warulik Ecdf\r\nKancelaria Prawna spółka komandytowa\r\n[PL] 61-770 Poznań, ul. Paderewskiego 6/4\r\ntel. (+48) 61 855 27 39\r\n\r\nrpwe.pl\r\n\r\nTen e-mail zawiera ściśle poufne i prawnie chronione informacje. Jeśli jesteście Państwo jego omyłkowym odbiorcą, prosimy o jego zniszczenie i niezwłoczne poinformowanie nadawcy. Kopiowanie, ujawnianie lub rozpowszechnianie materiału zawartego w tej wiadomości jest zabronione.","937778":"pozdrawiam,\r\nKrzysztof Zieliński\r\naplikant radcowski\r\n\r\n--\r\nRosicki Purski i Wspólnicy Ecdf\r\nKancelaria Radców Prawnych spółka komandytowa\r\n[PL] 61-770 Poznań, ul. Paderewskiego 6/4\r\ntel. (+48) 61 855 27 39\r\n\r\nrpwe.pl\r\n\r\nTen e-mail zawiera ściśle poufne i prawnie chronione informacje. Jeśli jesteście Państwo jego omyłkowym odbiorcą, prosimy o jego zniszczenie i niezwłoczne poinformowanie nadawcy. Kopiowanie, ujawnianie lub rozpowszechnianie materiału zawartego w tej wiadomości jest zabronione."}});
+
+var ImageList = [ ];
+var CKEDITOR_BASEPATH = '/static/js/ckeditor3.6.4/';
+$(window).bind ('load', function () {
+UI.init ();
+Webmail = new _Webmail ();
+Webmail.editorSetUp ({"mode":"html"});
+Webmail.writemsgInit ({"redirect":null,"send":null});
+$('#cm_priority_change_high').on ('click', function (event) { Webmail.writeFormPriorityChange (event, {"state":1}); } ); 
+$('#cm_priority_change_normal').on ('click', function (event) { Webmail.writeFormPriorityChange (event, {"state":3}); } ); 
+$('#cm_priority_change_low').on ('click', function (event) { Webmail.writeFormPriorityChange (event, {"state":5}); } ); 
+$('#add_attach').on ('click', function (event) { Webmail.writeFormAttach (event); } ); 
+$('#switch_html').on ('click', function (event) { Webmail.switchHtml (event); } ); 
+$('#priority_change').on ('click', function (event) { Webmail.writeFormPriorityChange (event); } ); 
+});
+        </script>
+        <link rel="shortcut icon" type="image/x-icon" href="https://poczta.home.pl/static/img/webmail/favicon.ico">
+<script src="Nowa%20wiadomo%C5%9B%C4%87_pliki/config.js" type="text/javascript"></script><link href="Nowa%20wiadomo%C5%9B%C4%87_pliki/editor.css" type="text/css" rel="stylesheet"><script src="Nowa%20wiadomo%C5%9B%C4%87_pliki/plugin.js" type="text/javascript"></script><script src="Nowa%20wiadomo%C5%9B%C4%87_pliki/default.js" type="text/javascript"></script></head>
+    <body style="overflow: hidden;" onpageshow='event.persisted &amp;&amp; (function(){var allInstances = CKEDITOR.instances, editor, doc;for ( var i in allInstances ){	editor = allInstances[ i ];	doc = editor.document;	if ( doc )	{		doc.$.designMode = "off";		doc.$.designMode = "on";	}}})();'><form name="form_main" id="form_main" action="/mail/write
+" method="post" enctype="multipart/form-data">
+<div id="middle">
+    <div id="main" class="blank">
+        <div id="mainInfo">
+    <div id="mainInfoFolder">Nowa wiadomość</div>
+    
+</div>
+        <div id="mainMenuWrapper" class="">
+    <div id="mainMenu">
+        <ul>
+            <li class="dummy"><input value="" name="" type="submit"></li>    <li>
+        <div class="toolbar_bkg " id="btn_send">
+            <input class="toolbar_icons send send" name="send" id="send" value="Wyślij" title="Wyślij wiadomość" type="submit">
+        </div>
+    </li>    <li>
+        <div class="toolbar_bkg " id="btn_save_draft">
+            <input class="toolbar_icons save save_draft" name="save_draft" id="save_draft" value="Zapisz" title="Zapisz wiadomość na dysku" type="submit">
+        </div>
+    </li>    <li>
+        <div class="toolbar_bkg  active" id="btn_html">
+            <input class="toolbar_icons html_btn switch_html" name="html" id="switch_html" value="Tekst formatowany" title="Tekst formatowany" type="submit">
+        </div>
+    </li>    <li>
+        <div style="position: relative; overflow: hidden; direction: ltr;" class="toolbar_bkg " id="btn_add_attach">
+            <input class="toolbar_icons add_attach add_attach" name="add_attach" id="add_attach" value="Dodaj załączniki" title="Dodaj załączniki" type="submit">
+        <input style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0;" name="file" multiple="multiple" type="file"></div>
+    </li>    <li>
+        <div class="toolbar_bkg nextArrow" id="btn_priority_set">
+            <input class="toolbar_icons priority  priority_change" name="priority_set" id="priority_change" value="Priorytet normalny" title="Priorytet wiadomości" type="submit">
+        </div>
+        <div class="mainMenuSubMenuParent">
+            <a href="#" class="menuArrow" onclick="UI.cmStart(null, 'toolsCmBox5'); return false;"></a>
+            <div class="cmBox_layer">
+<ul id="toolsCmBox5" class="cmBox">    <li>
+        <a id="cm_priority_change_high" href="#" class="cmItemDisabled priority_change_high">Wysoki</a>
+    </li>    <li>
+        <a id="cm_priority_change_normal" href="#" class="cmItemDisabled priority_change_normal">Normalny</a>
+    </li>    <li>
+        <a id="cm_priority_change_low" href="#" class="cmItemDisabled priority_change_low">Niski</a>
+    </li></ul>
+</div>
+        </div>
+    </li>    </ul><ul class="right">    <li>
+        <div class="toolbar_bkg " id="btn_form_reset">
+            <input class="toolbar_icons close form_reset" name="form_reset" id="form_reset" value="Zamknij" title="Zamknij" type="submit">
+        </div>
+    </li>        </ul>
+    </div>
+</div>
+
+        
+        
+        
+    <div style="height: 465px;" id="viewbox" class="mainContent"><div id="view">    <input name="folder_id" value="3338257" type="hidden">
+    <input name="view_mode" value="blank" type="hidden">
+    <input name="homepl_action" value="ngxxqyN9CcNJPmJRaNI" id="homepl_action" type="hidden">
+    <input name="mode_send" value="html" id="mode_send" type="hidden">
+    <input name="editor_content_prepared" value="1" id="editor_content_prepared" type="hidden">
+    <input name="mail_f" value="0" type="hidden">
+    <input name="priority" value="3" id="mail_priority" type="hidden">
+<div class="formsec mail_form">
+    <fieldset>
+<div class="formrow select_profile fullfield">
+    <div class="formlabel" style="width:0%;">
+    </div>
+    <div class="formfields" style="width:100%;"><div class="field_float"><input name="go_profiles" value="Od" tabindex="7" title="Profile" class="wp100 button btn-profile" id="go_profiles" type="submit">
+</div>
+<div class="field"><div class="input_c">
+    <select title="" name="profile" tabindex="1" class="" id="profile_selection" style="width:100%;"><option selected="selected" title="Profil Krzysztof: Krzysztof Zieliński &lt;krzysztof.zielinski@rpwe.pl&gt;" value="937778">
+    Profil&nbsp;Krzysztof:&nbsp;Krzysztof&nbsp;Zieliński&nbsp;&lt;krzysztof.zielinski@rpwe.pl&gt;
+</option>
+<option title="Profil Krzysztof Zieliński: Krzysztof Zieliński &lt;krzysztof.zielinski@ecdflegal.pl&gt;" value="922420">
+    Profil&nbsp;Krzysztof&nbsp;Zieliński:&nbsp;Krzysztof&nbsp;Zieliński&nbsp;&lt;krzysztof.zielinski@ecdflegal.pl&gt;
+</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="formrow fullfield">
+    <div class="formlabel" style="width:0%;">
+    </div>
+    <div class="formfields" style="width:100%;"><div class="field"><div class="input_c">
+    <input autocomplete="off" name="to" value="e-idea@e-idea.com.pl" tabindex="2" class="" id="email_to" style="width:100%" type="text">
+</div>
+</div>
+<div class="field_float"><input name="go_abook_to" value="Do" tabindex="8" title="Pobierz adres z Książki Adresowej" class="wp100 button btn-address" id="go_abook_to" type="submit">
+</div>
+</div>
+</div>
+<div id="rowCC" class="formrow fullfield">
+    <div class="formlabel" style="width:0%;">
+    </div>
+    <div class="formfields" style="width:100%;"><div class="field_float"><input name="go_abook_cc" value="Kopia" tabindex="9" title="Pobierz adres z Książki Adresowej" class="wp100 button btn-address" id="go_abook_cc" type="submit">
+</div>
+<div class="field"><div class="input_c">
+    <input autocomplete="off" name="cc" tabindex="3" class="" id="email_cc" style="width:100%" type="text">
+</div>
+</div>
+</div>
+</div>
+<div id="rowBCC" class="formrow fullfield">
+    <div class="formlabel" style="width:0%;">
+    </div>
+    <div class="formfields" style="width:100%;"><div class="field"><div class="input_c">
+    <input autocomplete="off" name="bcc" value="&quot;Bogdan Rosicki&quot; &lt;bogdan.rosicki@rpwe.pl&gt;; " tabindex="4" class="" id="email_bcc" style="width: 100%;" type="text">
+</div>
+</div>
+<div class="field_float"><input name="go_abook_bcc" value="Ukryta kopia" tabindex="10" title="Pobierz adres z Książki Adresowej" class="wp100 button btn-address" id="go_abook_bcc" type="submit">
+</div>
+</div>
+</div>
+<div class="formrow subject">
+    <div class="formlabel" style="width:0;">
+    </div>
+    <div class="formfields" style="width:99px;"><div class="field"><div class="wp1 fullfield">
+<label for="subject">Temat</label>
+
+</div>
+</div>
+</div>
+</div>
+<div class="formrow subject_field">
+    <div class="formlabel" style="width:99px;">
+    </div>
+    <div class="formfields" style="width:100%;"><div class="field"><div class="input_c">
+    <input name="subject" value="Modyfikacja regulaminu serwisu" tabindex="5" class="" id="subject" style="width:100%" type="text">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    if (typeof formKeeper == "undefined") var formKeeper = [];
+    formKeeper[formKeeper.length] = new MyForm ('_',
+        [ { type: uriDecode ("select"), name: uriDecode ("profile"), title: "", passmeter: false, passmeterDescr: ""},{ type: uriDecode ("input"), name: uriDecode ("to"), title: "", passmeter: false, passmeterDescr: uriDecode ("Miernik+jako%c5%9bci+has%c5%82a%3bwprowad%c5%ba+has%c5%82o%3bbardzo+s%c5%82abe%3bs%c5%82abe%3bumiarkowane%3bsilne%3bbardzo+silne")},{ type: uriDecode ("input"), name: uriDecode ("cc"), title: "", passmeter: false, passmeterDescr: uriDecode ("Miernik+jako%c5%9bci+has%c5%82a%3bwprowad%c5%ba+has%c5%82o%3bbardzo+s%c5%82abe%3bs%c5%82abe%3bumiarkowane%3bsilne%3bbardzo+silne")},{ type: uriDecode ("input"), name: uriDecode ("bcc"), title: "", passmeter: false, passmeterDescr: uriDecode ("Miernik+jako%c5%9bci+has%c5%82a%3bwprowad%c5%ba+has%c5%82o%3bbardzo+s%c5%82abe%3bs%c5%82abe%3bumiarkowane%3bsilne%3bbardzo+silne")},{ type: uriDecode ("input"), name: uriDecode ("subject"), title: "", passmeter: false, passmeterDescr: uriDecode ("Miernik+jako%c5%9bci+has%c5%82a%3bwprowad%c5%ba+has%c5%82o%3bbardzo+s%c5%82abe%3bs%c5%82abe%3bumiarkowane%3bsilne%3bbardzo+silne")} ],
+        [ uriDecode ("to"),  ],
+        0
+    );
+</script>
+<div style="top: 137px; bottom: auto;" class="qq-upload-drop-area no-display" id="attachments_drop"></div>
+<div class="formrow" id="attachments_list_container">
+    <div class="drop_files">
+        <span>Przeciągnij tutaj załączniki</span>
+    </div>
+
+</div>    </fieldset>
+</div>
+<div class="formsec mail_form_body no_attachments" id="mail_form_body">
+    <fieldset>
+<div class="formrow">
+    <div class="formlabel">
+    </div>
+    <div class="formfields"><div class="field"><div class="input_c">
+    <textarea style="visibility: hidden; display: none;" name="text" tabindex="6" class="wp100" id="mailbody"></textarea><span id="cke_mailbody" class="cke_skin_kama_webmail cke_1 cke_editor_mailbody" dir="ltr" title=" " role="application" aria-labelledby="cke_mailbody_arialbl" lang="pl"><span id="cke_mailbody_arialbl" class="cke_voice_label">Edytor tekstu sformatowanego</span><span class="cke_browser_gecko cke_focus" role="presentation"><span class="cke_wrapper cke_ltr" role="presentation"><table class="cke_editor" role="presentation" border="0" cellpadding="0" cellspacing="0"><tbody><tr style="-moz-user-select: none;" role="presentation"><td id="cke_top_mailbody" class="cke_top" role="presentation"><div class="cke_toolbox" role="group" aria-labelledby="cke_5" onmousedown="return false;"><span id="cke_5" class="cke_voice_label">Paski narzędzi edytora</span><span id="cke_6" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><span class="cke_button"><a id="cke_7" class="cke_button_bold cke_off" title="Pogrubienie" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_7_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(1, event);" onfocus="return CKEDITOR.tools.callFunction(2, event);" onclick="CKEDITOR.tools.callFunction(3, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_7_label" class="cke_label">Pogrubienie</span></a></span><span class="cke_button"><a id="cke_8" class="cke_button_italic cke_off" title="Kursywa" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_8_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(4, event);" onfocus="return CKEDITOR.tools.callFunction(5, event);" onclick="CKEDITOR.tools.callFunction(6, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_8_label" class="cke_label">Kursywa</span></a></span><span class="cke_button"><a id="cke_9" class="cke_button_underline cke_off" title="Podkreślenie" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_9_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(7, event);" onfocus="return CKEDITOR.tools.callFunction(8, event);" onclick="CKEDITOR.tools.callFunction(9, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_9_label" class="cke_label">Podkreślenie</span></a></span><span class="cke_button"><a id="cke_10" class="cke_button_strike cke_off" title="Przekreślenie" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_10_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(10, event);" onfocus="return CKEDITOR.tools.callFunction(11, event);" onclick="CKEDITOR.tools.callFunction(12, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_10_label" class="cke_label">Przekreślenie</span></a></span></span><span class="cke_toolbar_end"></span></span><span id="cke_12" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_rcombo" role="presentation"><span id="cke_11" class="cke_font cke_off" role="presentation"><span id="cke_11_label" class="cke_label">Czcionka</span><a hidefocus="true" title="Czcionka" tabindex="-1" role="button" aria-labelledby="cke_11_label" aria-describedby="cke_11_text" aria-haspopup="true" onblur="this.style.cssText = this.style.cssText;" onkeydown="CKEDITOR.tools.callFunction( 14, event, this );" onfocus="return CKEDITOR.tools.callFunction(15, event);" onclick="CKEDITOR.tools.callFunction(13, this); return false;"><span><span id="cke_11_text" class="cke_text">Arial</span></span><span class="cke_openbutton"><span class="cke_icon"></span></span></a></span></span><span class="cke_rcombo" role="presentation"><span id="cke_13" class="cke_fontSize cke_off" role="presentation"><span id="cke_13_label" class="cke_label">Rozmiar</span><a hidefocus="true" title="Rozmiar" tabindex="-1" role="button" aria-labelledby="cke_13_label" aria-describedby="cke_13_text" aria-haspopup="true" onblur="this.style.cssText = this.style.cssText;" onkeydown="CKEDITOR.tools.callFunction( 17, event, this );" onfocus="return CKEDITOR.tools.callFunction(18, event);" onclick="CKEDITOR.tools.callFunction(16, this); return false;"><span><span id="cke_13_text" class="cke_text">11</span></span><span class="cke_openbutton"><span class="cke_icon"></span></span></a></span></span><span class="cke_toolgroup" role="presentation"><span class="cke_button"><a id="cke_14" class="cke_button_bulletedlist cke_off" title="Lista wypunktowana" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_14_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(19, event);" onfocus="return CKEDITOR.tools.callFunction(20, event);" onclick="CKEDITOR.tools.callFunction(21, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_14_label" class="cke_label">Lista wypunktowana</span></a></span><span class="cke_button"><a id="cke_15" class="cke_button_numberedlist cke_off" title="Lista numerowana" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_15_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(22, event);" onfocus="return CKEDITOR.tools.callFunction(23, event);" onclick="CKEDITOR.tools.callFunction(24, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_15_label" class="cke_label">Lista numerowana</span></a></span><span class="cke_separator" role="separator"></span><span class="cke_button"><a id="cke_16" class="cke_button_justifyleft cke_off" title="Wyrównaj do lewej" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_16_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(25, event);" onfocus="return CKEDITOR.tools.callFunction(26, event);" onclick="CKEDITOR.tools.callFunction(27, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_16_label" class="cke_label">Wyrównaj do lewej</span></a></span><span class="cke_button"><a id="cke_17" class="cke_button_justifycenter cke_off" title="Wyśrodkuj" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_17_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(28, event);" onfocus="return CKEDITOR.tools.callFunction(29, event);" onclick="CKEDITOR.tools.callFunction(30, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_17_label" class="cke_label">Wyśrodkuj</span></a></span><span class="cke_button"><a id="cke_18" class="cke_button_justifyright cke_off" title="Wyrównaj do prawej" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_18_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(31, event);" onfocus="return CKEDITOR.tools.callFunction(32, event);" onclick="CKEDITOR.tools.callFunction(33, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_18_label" class="cke_label">Wyrównaj do prawej</span></a></span><span class="cke_button"><a aria-pressed="true" id="cke_19" class="cke_button_justifyblock cke_on" title="Wyjustuj" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_19_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(34, event);" onfocus="return CKEDITOR.tools.callFunction(35, event);" onclick="CKEDITOR.tools.callFunction(36, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_19_label" class="cke_label">Wyjustuj</span></a></span></span><span class="cke_toolbar_end"></span></span><span id="cke_20" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><span class="cke_button"><a id="cke_21" class="cke_button_undo cke_off" title="Cofnij" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_21_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(37, event);" onfocus="return CKEDITOR.tools.callFunction(38, event);" onclick="CKEDITOR.tools.callFunction(39, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_21_label" class="cke_label">Cofnij</span></a></span><span class="cke_button"><a aria-disabled="true" id="cke_22" class="cke_button_redo cke_disabled" title="Ponów" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_22_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(40, event);" onfocus="return CKEDITOR.tools.callFunction(41, event);" onclick="CKEDITOR.tools.callFunction(42, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_22_label" class="cke_label">Ponów</span></a></span><span class="cke_button"><a id="cke_23" class="cke_button_removeFormat cke_off" title="Usuń formatowanie" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_23_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(43, event);" onfocus="return CKEDITOR.tools.callFunction(44, event);" onclick="CKEDITOR.tools.callFunction(45, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_23_label" class="cke_label">Usuń formatowanie</span></a></span></span><span class="cke_toolbar_end"></span></span><span id="cke_24" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><span class="cke_button"><a id="cke_25" class="cke_button_subscript cke_off" title="Indeks dolny" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_25_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(46, event);" onfocus="return CKEDITOR.tools.callFunction(47, event);" onclick="CKEDITOR.tools.callFunction(48, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_25_label" class="cke_label">Indeks dolny</span></a></span><span class="cke_button"><a id="cke_26" class="cke_button_superscript cke_off" title="Indeks górny" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_26_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(49, event);" onfocus="return CKEDITOR.tools.callFunction(50, event);" onclick="CKEDITOR.tools.callFunction(51, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_26_label" class="cke_label">Indeks górny</span></a></span><span class="cke_separator" role="separator"></span><span class="cke_button"><a id="cke_27" class="cke_button_link cke_off" title="Wstaw/edytuj odnośnik" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_27_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(52, event);" onfocus="return CKEDITOR.tools.callFunction(53, event);" onclick="CKEDITOR.tools.callFunction(54, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_27_label" class="cke_label">Wstaw/edytuj odnośnik</span></a></span><span class="cke_button"><a aria-disabled="true" id="cke_28" class="cke_button_unlink cke_disabled" title="Usuń odnośnik" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_28_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(55, event);" onfocus="return CKEDITOR.tools.callFunction(56, event);" onclick="CKEDITOR.tools.callFunction(57, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_28_label" class="cke_label">Usuń odnośnik</span></a></span></span><span class="cke_toolbar_end"></span></span><span id="cke_29" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><span class="cke_button"><a id="cke_30" class="cke_button_image cke_off" title="Obrazek" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_30_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(58, event);" onfocus="return CKEDITOR.tools.callFunction(59, event);" onclick="CKEDITOR.tools.callFunction(60, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_30_label" class="cke_label">Obrazek</span></a></span><span class="cke_separator" role="separator"></span><span class="cke_button"><a id="cke_31" class="cke_button_textcolor cke_off" title="Kolor tekstu" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_31_label" aria-haspopup="true" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(61, event);" onfocus="return CKEDITOR.tools.callFunction(62, event);" onclick="CKEDITOR.tools.callFunction(63, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_31_label" class="cke_label">Kolor tekstu</span><span class="cke_buttonarrow">&nbsp;</span></a></span><span class="cke_button"><a id="cke_32" class="cke_button_bgcolor cke_off" title="Kolor tła" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_32_label" aria-haspopup="true" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(64, event);" onfocus="return CKEDITOR.tools.callFunction(65, event);" onclick="CKEDITOR.tools.callFunction(66, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_32_label" class="cke_label">Kolor tła</span><span class="cke_buttonarrow">&nbsp;</span></a></span><span class="cke_separator" role="separator"></span><span class="cke_button"><a id="cke_33" class="cke_button_specialchar cke_off" title="Wstaw znak specjalny" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_33_label" onblur="this.style.cssText = this.style.cssText;" onkeydown="return CKEDITOR.tools.callFunction(67, event);" onfocus="return CKEDITOR.tools.callFunction(68, event);" onclick="CKEDITOR.tools.callFunction(69, this); return false;"><span class="cke_icon">&nbsp;</span><span id="cke_33_label" class="cke_label">Wstaw znak specjalny</span></a></span></span><span class="cke_toolbar_end"></span></span></div></td></tr><tr role="presentation"><td id="cke_contents_mailbody" class="cke_contents" style="height: 228px;" role="presentation"><span id="cke_38" class="cke_voice_label">Press ALT 0 for help</span><iframe style="width:100%;height:100%" aria-describedby="cke_38" title="Rich text editor, mailbody" src="" tabindex="6" allowtransparency="true" frameborder="0"></iframe></td></tr><tr style="display: none; -moz-user-select: none;" role="presentation"><td id="cke_bottom_mailbody" class="cke_bottom" role="presentation"></td></tr></tbody></table><style>.cke_skin_kama_webmail{visibility:hidden;}</style></span></span></span>
+</div>        <script type="text/javascript" src="Nowa%20wiadomo%C5%9B%C4%87_pliki/ckeditor_webmail.js"></script>
+
+</div>
+</div>
+</div>
+    </fieldset>
+</div>
+<script type="text/javascript">
+    if (typeof formKeeper == "undefined") var formKeeper = [];
+    formKeeper[formKeeper.length] = new MyForm ('_',
+        [ { type: uriDecode ("textarea"), name: uriDecode ("text"), title: "", passmeter: false, passmeterDescr: uriDecode ("Miernik+jako%c5%9bci+has%c5%82a%3bwprowad%c5%ba+has%c5%82o%3bbardzo+s%c5%82abe%3bs%c5%82abe%3bumiarkowane%3bsilne%3bbardzo+silne")} ],
+        [  ],
+        0
+    );
+</script>
+</div>
+</div>
+          <input name="token" value="28e50cbbcc447e374a906044202a6da4" type="hidden">
+
+    </div>
+</div></form>        <div id="VL"></div>
+        
+    
+<div class="cke_skin_kama_webmail" role="presentation" style="z-index: 10001; position: absolute; top: 289px; left: 247px; opacity: 1; display: none;" lang="pl"><div id="cke_45" dir="ltr" role="presentation" class="cke_panel cke_ltr  cke_rcombopanel"><iframe title="Rozmiar" role="listbox" aria-label="Rozmiar" id="cke_45_frame" src="javascript:void(0)" frameborder="0"></iframe></div></div><ul style="top: 175px; left: 123.9px; display: none;" class="suggest_main"><li class="">"Bogdan Rosicki" &lt;bogdan.rosicki@rpwe.pl&gt;</li></ul></body></html>
